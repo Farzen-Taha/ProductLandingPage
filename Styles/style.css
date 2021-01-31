@@ -1,0 +1,25 @@
+#nav-bar{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* justify-content:flex-end; */
+
+}
+#img-div{
+     display: flex;
+    border: 1px solid yellow;
+    align-items: center;
+    /* justify-content: flex-start; */
+    justify-self: flex-start;
+    margin: 20px;
+
+}
+#links{
+    display: flex;
+    border: 1px solid blue;
+    align-items: center;
+    justify-self: flex-end;
+    /* justify-content: right; */
+
+}
