@@ -1,25 +1,33 @@
-#nav-bar{
-    border: 1px solid green;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    /* justify-content:flex-end; */
-
-}
-#img-div{
-     display: flex;
-    border: 1px solid yellow;
-    align-items: center;
-    /* justify-content: flex-start; */
-    justify-self: flex-start;
-    margin: 20px;
-
-}
-#links{
-    display: flex;
-    border: 1px solid blue;
-    align-items: center;
-    justify-self: flex-end;
-    /* justify-content: right; */
-
-}
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .nvbr-list{
+        border: 1px solid yellowgreen;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nvbr-item{
+        list-style: none;
+        margin: 2rem;
+    }
+    .nvbr-item a{
+        text-decoration: none;
+        color: black;
+    }
+    .nvbr-item:first-child{
+        margin-right: auto;
+        align-content: center;
+        justify-content: center;
+        align-items:c ;
+        
+    }
+    #img{
+        height: 50px;
+        width: 100px;
+        border: 1px solid gray;
+    }
+   
+</style>
