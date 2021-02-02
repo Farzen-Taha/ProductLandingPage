@@ -1,25 +1,33 @@
-#nav-bar{
+#header{
     border: 1px solid green;
     display: flex;
     flex-direction: row;
     text-align: center;
-    /* justify-content:flex-end; */
+    justify-content: space-between;
 
 }
-#img-div{
+#header-icon{
      display: flex;
     border: 1px solid yellow;
     align-items: center;
-    /* justify-content: flex-start; */
-    justify-self: flex-start;
+   
     margin: 20px;
 
 }
-#links{
+#header-img
+{
+    height: 30px;
+    width: 50px;
+    padding: 20px;
+}
+#nav-features{
     display: flex;
     border: 1px solid blue;
-    align-items: center;
-    justify-self: flex-end;
-    /* justify-content: right; */
+    justify-self: self-end;
+    padding: 10px;
 
+}
+li{
+    list-style: none;
+    display: inline;
 }
