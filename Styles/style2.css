@@ -2,20 +2,112 @@
     margin: 0;
     padding: 0;
 }
+.mrgn{
+    margin-left: 60px;
+}
 .nav1
 {
-    display: grid;
-    border: 1px solid green;
-    grid-template-columns: 20% 40% 20% 10% ;
-    height: 40px;
+    display: flex;
+    /* border: 1px solid green; */
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 10px;
+    height: 50px;
+}
+#logo_desc{
+       
+    color: rgb(200, 10, 10);
+    /* display: inline; */
+    /* position: absolute; */
+    /* margin-top: 25px; */
+    /* left: 175px; */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    text-shadow: 2px 1px rgb(168, 112, 112);
 }
 .nav1 input
 {
-    height: inherit;
+    height: 20px;
+    
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav1 p
-{   
+{   margin-left:-10px;
     display: inline-block;
-    height: inherit;
+    
+}
+#npt{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#email{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border:0.5px solid rgb(126, 126, 124);
+    
+}
+#submit{
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c53247;
+    border-style: none;
+    color: white;
+}
+#submit:hover{
+    background-color: rgb(240, 14, 14);
+}
+.nav2{
+    /* border: 1px solid blue; */
+    /* background-color:rgb(39, 151, 140); */
+    /* background-color: #dc3545; */
+    background-color:  #c53247;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+
+}
+.nav2 a{
+    text-decoration: none;
+    color: white;
+    font-family:Poppins;
+    font-size: 18px;
+    font-weight:500;
+}
+.nav2 input{
+    width: 80px;
+    color: white;
+    background-color: tomato;
+    border-style: none;
+    border-radius: 5px;
+    height: 20px;
+}
+.pic{
+    margin-top: 20px;
+    height: 450px;
+    background-color: tomato;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    justify-content: center;
+}
+.cards p{
+    text-align: center;
 }
