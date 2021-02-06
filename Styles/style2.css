@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav1
+{
+    display: grid;
+    border: 1px solid green;
+    grid-template-columns: 20% 40% 20% 10% ;
+    height: 40px;
+}
+.nav1 input
+{
+    height: inherit;
+}
+
+.nav1 p
+{   
+    display: inline-block;
+    height: inherit;
+}
