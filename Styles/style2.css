@@ -117,14 +117,16 @@
     
 
 }
-.for-you
-{   position: relative;
+.for-you{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.for-you2
+{  
     font-size: 30px;
     font-family: cursive, monospace;
     font-weight: bold;
     color: rgb(41, 40, 40);
-    margin: 10px 160px 10px 180px;
-   
 }
 .for-you #hr
 {
