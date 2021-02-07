@@ -24,10 +24,10 @@
     /* position: absolute; */
     /* margin-top: 25px; */
     /* left: 175px; */
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     font-family: cursive;
-    text-shadow: 2px 1px rgb(168, 112, 112);
+    text-shadow: 1px 1px rgb(168, 112, 112);
 }
 .nav1 input
 {
@@ -52,12 +52,13 @@
     justify-content: center;
     align-items: center;
 }
-#email{
+#search{
     width: 400px;
     height: 30px;
     border-radius: 10px;
     padding-left: 10px;
     border:0.5px solid rgb(126, 126, 124);
+    outline-style: none;
     
 }
 #submit{
@@ -99,15 +100,131 @@
     height: 20px;
 }
 .pic{
+    
     margin-top: 20px;
     height: 450px;
-    background-color: tomato;
+    background-image: url(../Styles/Back-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic p
+{   color: #c53247;
+    font-size: 36px;
+    font-family: cursive;
+    text-align:center;
+    position: relative;
+    top: 300px;
+    
+
+}
+.for-you
+{   position: relative;
+    font-size: 30px;
+    font-family: cursive, monospace;
+    font-weight: bold;
+    color: rgb(41, 40, 40);
+    margin: 10px 160px 10px 180px;
+   
+}
+.for-you #hr
+{
+    display: inline-block; 
+    width: 80%;
+    border-bottom: 8px solid gray;
+    border-radius: 4px;
 }
 .cards{
     display: grid;
-    grid-template-columns: repeat(4,100px);
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 360px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+.cards p,a{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    font-family:sans-serif;
+    
+}
+.cards a
+{
+    text-decoration: none;
+    color: rgb(58, 56, 56);
+    font-size: 18px;
+}
+.cards a:hover
+{
+    text-decoration: underline;
+
+}
+
+#pic-size
+{  
+    margin: 10px;
+    margin-bottom: 0px;
+    content: '';
+    
+     border: 1px solid black;
+    background-position: center; 
+    background-size: cover;
+    width: 220px;
+    height: 240px;
+
+}
+#items
+{   display: grid;
+    grid-template-rows: 75% 22%;
+    /* margin: 10px; */
+    margin-bottom: 0px;
+    justify-content: center;
+    background-color: rgb(231, 227, 227);
+    
+    border-radius: 6px;
+    
+}
+#items:hover
+{
+    box-shadow: 0px 8px 16px   rgb(194, 194, 194);
+}
+.price
+{   
+    font-weight: bold;
+}
+.video
+{
+    display: flex;
     justify-content: center;
 }
-.cards p{
-    text-align: center;
+iframe
+{
+    height: 400px;
+    width: 700px;
+}
+.footer
+{
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 150px 200px;
+    justify-content: center;
+
+}
+.footer input
+{   display: absolute;
+    margin-top: 50px;
+}
+#email
+{
+    margin-top: 50px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border:0.5px solid rgb(126, 126, 124);
+    outline-style: none;
+}
+.footer ul,li{
+    list-style: none;
+    display: inline-block;
 }
