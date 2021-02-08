@@ -6,6 +6,18 @@
     margin-left: 60px;
     
 }
+.nav-link{
+    margin-left: 60px;
+    
+}
+#header
+{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 33;
+}
 .nav1
 {
     display: flex;  
@@ -26,6 +38,11 @@
     font-weight: bold;
     font-family: cursive;
     text-shadow: 1px 1px rgb(168, 112, 112);
+}
+#header-img
+{
+    height: 50px;
+     width: 90px;
 }
 .nav1 input
 {
