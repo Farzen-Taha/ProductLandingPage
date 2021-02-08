@@ -8,15 +8,10 @@
 }
 .nav1
 {
-    display: flex;
-    /* border: 1px solid green; */
-    position: sticky;
-    top:0;
-    /* background-color: white; */
+    display: flex;  
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  
     margin-top: 10px;
     height: 50px;
 }
@@ -27,7 +22,7 @@
     /* position: absolute; */
     /* margin-top: 25px; */
     /* left: 175px; */
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     font-family: cursive;
     text-shadow: 1px 1px rgb(168, 112, 112);
@@ -118,8 +113,6 @@
     text-align:center;
     position: relative;
     top: 300px;
-    
-
 }
 .for-you{
     margin-top: 10px;
@@ -171,7 +164,6 @@
     margin: 10px;
     margin-bottom: 0px;
     content: '';
-    
      border: 1px solid black;
     background-position: center; 
     background-size: cover;
@@ -185,10 +177,9 @@
     /* margin: 10px; */
     margin-bottom: 0px;
     justify-content: center;
-    background-color: rgb(231, 227, 227);
-    
-    border-radius: 6px;
-    
+    /* background-color: rgb(231, 227, 227); */
+    background-color: #f5f5ef;
+    border-radius: 6px;  
 }
 #items:hover
 {
@@ -198,21 +189,24 @@
 {   
     font-weight: bold;
 }
-.video
+#vid-div
 {
     display: flex;
     justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-iframe
+#video
 {
     height: 400px;
     width: 700px;
+    border-radius: 8px;
 }
 .footer
 {
-    border: 1px solid blue;
+    background-color: rgb(49, 61, 82);
     display: grid;
-    grid-template-rows: 80px 50px 70px;
+    grid-template-rows: 80px 50px 110px;
     grid-gap: 10px;
     justify-content: center;
     align-content: center;
@@ -227,7 +221,7 @@ iframe
 
 #email
 {
-    margin-top: 30px;
+    margin-top: 40px;
     width: 400px;
     height: 30px;
     border-radius: 10px;
@@ -247,7 +241,7 @@ iframe
 }
 .lst a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: sans-serif;
 }
 .lst a:hover{
@@ -259,9 +253,10 @@ iframe
     margin-bottom: 20px;
     text-align: center;
     padding: auto;
+    color: white;
 }
 #rit {
     /* border: 1px solid black; */
     position: relative;
-    top: 8px;
+    top: 10px;
 }

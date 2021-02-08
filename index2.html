@@ -7,17 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="Styles/all.min.css">
+  
   <title>Online Shopping</title>
 </head>
 
 <body>
-  <header>
-    <nav>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <header id="header">
+    <nav id="nav-bar">
       <div class="nav1">
-        <div id="logo">
+        <div id="logo" id="header-img">
           <img src="Styles/logo.png" alt="logo" height="50px" width="90px">
-          <p id="logo_desc"><span style="font-size: 28px;color: rgb(133, 28, 115);">D</span>ukan<span
-              style="font-size: 28px;color: rgb(133, 28, 115);">.C</span>om
+          <p id="logo_desc"><span style="font-size: 34px;color: rgb(133, 28, 115);">D</span>ukan<span
+              style="font-size: 32px;color: rgb(133, 28, 115);">.C</span>om
             <!-- <span
                     style="font-size: 24px;color: rgb(133, 28, 115);">S</span>hopping -->
           </p>
@@ -26,17 +28,16 @@
           <input type="Search" id="search" placeholder="search">
           <input type="submit" id="submit" value="Search">
         </div>
-        <div>
-          <i class="mrgn">my cart icon</i>
+        <div class="mrgn">
+          <i class="fas fa-1.7x fa-shopping-cart" style="color: #c53247 "> My Cart </i>
         </div>
       </div>
       <div class="nav2">
-        <a href=""></a>
-        <a class="mrgn" href="#">Home</a>
-        <a class="mrgn" href="#">Catagory</a>
-        <a class="mrgn" href="#">Latest</a>
-        <a class="mrgn" href="#">Best Selling</a>
-        <a class="mrgn" href="#">Login</a>
+        <a class="mrgn" class = "nav-link" href="#" >Home</a>
+        <a class="mrgn" class = "nav-link" href="#">Catagory</a>
+        <a class="mrgn" class = "nav-link" href="#">Latest</a>
+        <a class="mrgn" class = "nav-link" href="#">Best Selling</a>
+        <a class="mrgn" class = "nav-link" href="#">Login</a>
       </div>
     </nav>
   </header>
@@ -60,7 +61,6 @@
     </div>
     <div id="items">
       <div id="pic-size" style="background-image: url(Styles/pic1.jpg);">
-
       </div>
       <div class="items-desc">
         <a href="">Samsung Galaxy S21 Ultra</a>
@@ -70,7 +70,6 @@
     </div>
     <div id="items">
       <div id="pic-size" style="background-image: url(Styles/pic2.jpg);">
-
       </div>
       <div class="items-desc">
         <a href="">Samsung TV 55inch</a>
@@ -130,15 +129,19 @@
     </div>
 
   </div>
-  <div class="video">
-    <!-- <iframe width="853" height="480" src="https://www.youtube.com/embed/48SntfO7Z78" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> -->
-    <!-- </iframe> -->
+  <div class="for-you">
+    <span class="for-you2">Computer Shop</span>
+    <span id="hr"></span>
+  </div>
+  <div id="vid-div">
+    <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/48SntfO7Z78" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
   </div>
   <footer class="footer">
-    <div class="mail">
+    <form class="mail" id ="form">
       <input type="email" id="email" placeholder="Enter your Email">
       <input type="submit" id="submit" value="Subscribe">
-    </div>
+    </form>
     <div class="lst">
       <ul>
         <li> <a href="#">Help</a> </li>
