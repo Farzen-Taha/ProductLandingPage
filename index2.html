@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <style>
+        @media only screen and (max-width: 768px) {
+    
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+ .nav1
+{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 50px;
+}
+    </style>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Styles/style2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   
     <link rel="stylesheet" href="Styles/all.min.css">
 
     <title>Online Shopping</title>
@@ -13,11 +30,11 @@
 
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <header id="header" >
+    <header id="header">
         <nav id="nav-bar">
             <div class="nav1">
                 <div id="logo">
-                    <img id="header-img"  src="Styles/logo.png" alt="logo">
+                    <img id="header-img" src="Styles/logo.png" alt="logo">
                     <p id="logo_desc"><span style="font-size: 34px;color: rgb(133, 28, 115);">D</span>ukan<span
                             style="font-size: 32px;color: rgb(133, 28, 115);">.C</span>om
                         <!-- <span
@@ -35,15 +52,15 @@
             <div class="nav2">
                 <a class="nav-link" href="#home">Home</a>
                 <a class="margn" href="#">Catagory</a>
-                <a  class="nav-link" href="#latest">Latest</a>
-                <a  class="nav-link" href="#best">Best Selling</a>
+                <a class="nav-link" href="#latest">Latest</a>
+                <a class="nav-link" href="#best">Best Selling</a>
                 <a class="mrgn" href="#">Login</a>
-           
+
             </div>
         </nav>
     </header>
-   
-    
+
+
     <div id="home" class="pic">
         <p> We ship over 45 million products <br> around the world</p>
     </div>
@@ -61,7 +78,7 @@
                 <p class="price">$1499</p>
                 <p>Only 8 left in stock</p>
             </div>
-        </div>
+        </div>  
         <div id="items">
             <div id="pic-size" style="background-image: url(Styles/pic1.jpg);">
             </div>
@@ -137,13 +154,16 @@
         <span id="hr"></span>
     </div>
     <div id="vid-div">
-        <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/48SntfO7Z78" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/48SntfO7Z78" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
         </iframe>
     </div>
     <footer class="footer">
-        <form class="mail" id="form" >
+        <form class="mail" id="form">
             <input type="email" id="email" placeholder="Enter your Email">
-            <input type="submit" id="submit" formaction="https://www.freecodecamp.com/email-submit" value="Subscribe" name="sbmtBtn">
+            <input type="submit" id="submit" formaction="https://www.freecodecamp.com/email-submit" value="Subscribe"
+                name="sbmtBtn">
         </form>
         <div class="lst">
             <ul>
